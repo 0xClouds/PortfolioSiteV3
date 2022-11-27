@@ -1,0 +1,22 @@
+@import "/styles/utils/variables";
+
+.main {
+  padding: 2em 0 0 2em;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding-bottom: 1em;
+  font-family: $mainFont;
+
+  .headerContainer {
+    margin: 0 1em;
+
+    .header {
+      font-size: 2em;
+      margin: 0.2em 0 0 0;
+    }
+    .title {
+      font-size: 1em;
+    }
+  }
+}

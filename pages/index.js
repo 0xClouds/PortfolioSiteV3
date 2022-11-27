@@ -1,12 +1,12 @@
-import Cube from "../components/cube";
-import Octahedron from "../components/octahedron";
-import Eye from "../components/eye";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Home.module.scss";
+import Header from "../components/header";
+import NavMenu from "../components/navMenu";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Eye></Eye>
+      <Header></Header>
+      <NavMenu></NavMenu>
     </div>
   );
 }
