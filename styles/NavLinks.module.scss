@@ -1,0 +1,17 @@
+@import "../styles/utils/variables";
+.navList {
+  color: $fontColor;
+  font-size: 0.875em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+
+  .listItem {
+    padding: 0.4em 0;
+  }
+
+  .listItem:hover {
+    color: grey;
+  }
+}

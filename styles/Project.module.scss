@@ -1,0 +1,17 @@
+@import "../styles/utils/variables";
+
+.main {
+  margin: 1em 0;
+  width: 7em;
+  border-radius: 10px;
+  text-align: center;
+  .projectTitle {
+    color: $fontColor;
+    max-width: 10%;
+    white-space: normal;
+  }
+}
+
+.main:hover {
+  transform: rotate(2deg);
+}

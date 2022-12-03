@@ -1,0 +1,14 @@
+@import "../styles/utils/variables";
+.info {
+  color: $fontColor;
+  padding: 0 0.8em 0.8em 0;
+  .listHeader {
+    font-weight: bold;
+  }
+  .list {
+    list-style: none;
+    font-size: 0.875em;
+    font-weight: 500;
+    padding-left: 0.5em;
+  }
+}

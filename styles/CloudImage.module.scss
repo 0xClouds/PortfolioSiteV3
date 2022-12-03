@@ -1,9 +1,10 @@
+@import "../styles/utils/variables";
 .imgContainer {
   position: relative;
   height: 50px;
   width: 50px;
   border-radius: 10px;
-  box-shadow: 10px 10px 5px rgba(77, 75, 76, 0.8);
+  box-shadow: 10px 10px 5px $boxShadowColor;
 }
 .img {
   border: 5px solid white;

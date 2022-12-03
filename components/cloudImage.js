@@ -5,7 +5,7 @@ export default function CloudImage() {
     <div className={styles.main}>
       <div className={styles.imgContainer}>
         <Image
-          src="/Cloud.avif"
+          src="/Cloud.png"
           alt="Cloud NFT avatar"
           fill
           className={styles.img}

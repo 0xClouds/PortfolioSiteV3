@@ -1,14 +1,12 @@
 import styles from "../styles/NavMenu.module.scss";
+import Header from "./header";
+import NavLinks from "./navLinks";
 
-export default function NavMenu() {
+export default function NavMenu(currentPage) {
   return (
     <div className={styles.main}>
-      <ul className={styles.navList}>
-        <li className={styles.listItems}>Home</li>
-        <li className={styles.listItems}>Projects</li>
-        <li className={styles.listItems}>About</li>
-        <li className={styles.listItems}>Contact</li>
-      </ul>
+      <Header></Header>
+      <NavLinks></NavLinks>
     </div>
   );
 }
