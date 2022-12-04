@@ -7,7 +7,6 @@ body {
     sans-serif;
   background: #94cafa;
   height: 100%;
-  overflow: hidden;
 }
 
 #__next {
@@ -15,7 +14,7 @@ body {
   flex-direction: column;
   height: 96%;
   margin: 1em;
-  overflow: hidden;
+
   border: 0.09rem solid transparent;
   border-image: conic-gradient(
       from var(--angle),
