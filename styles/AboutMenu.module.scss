@@ -1,0 +1,19 @@
+@import "../styles/utils/variables";
+.main {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: $fontColor;
+  font-size: 0.875em;
+  padding: 0 0 2.5em 2.5em;
+  .header {
+    margin: 0;
+  }
+  .aboutList {
+    list-style: none;
+    padding: 0 0.5em;
+    margin: 0;
+  }
+}

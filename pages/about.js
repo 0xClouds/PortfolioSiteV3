@@ -1,3 +1,10 @@
+import AboutMenu from "../components/aboutMenu";
+import styles from "../styles/About.module.scss";
+
 export default function About() {
-  return <div></div>;
+  return (
+    <div className={styles.main}>
+      <AboutMenu></AboutMenu>
+    </div>
+  );
 }
